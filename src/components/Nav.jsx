@@ -7,8 +7,8 @@ function Nav() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="w-full">
-      <div className="w-full -z-10 h-3/5 absolute overflow-hidden">
+    <div className="w-full relative">
+      <div className="w-full h-96 z-10  absolute overflow-hidden">
         <div className="w-full h-full bg-black/50 z-10 absolute ">
           <div className="mr-0 text-right flex justify-end text-gray-200">
      <div className="m-2 h-12 w-12 bg-black/80 rounded-full flex flex-col absolute">
