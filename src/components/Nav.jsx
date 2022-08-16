@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { TbCoffee, TbCoffeeOff } from "react-icons/tb";
 import { navBarItems } from "../assets/utils/navBarItems";
-import {Fade} from 'react-awesome-reveal'
+import {Fade} from 'react-awesome-reveal';
+import {Link} from 'react-scroll'
 
 function Nav() {
   const [showNav, setShowNav] = useState(false);
@@ -35,7 +36,9 @@ function Nav() {
                   
                   className="text-gray-100 font-Serif_Pro uppercase"
                 >
+                  <Link to={e.link} spy={true} smooth={true} offset={0} duration={500} onClick={()=>setShowNav(false)}>
                   {e.item}
+                  </Link>
                 </div></Fade>
               ))}
             </div></Fade>
