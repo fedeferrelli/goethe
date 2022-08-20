@@ -9,7 +9,7 @@ function Contact() {
 
             <a href="https://www.pedidosya.com.ar/restaurantes/bahia-blanca/goethe-kaffee-dichter-menu?origin=shop_list" target="_blank"><img src={pedidosYa} className='w-28'/></a>
 
-            <a href="'https://api.whatsapp.com/send?phone=542914367071=Hola,%20Goethe%20Kaffee%20Dichter.%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'" target="_blank"><ImWhatsapp className='text-2xl text-white'/></a>
+            <a href="https://api.whatsapp.com/send?phone=5492914367071=Hola,%20Goethe%20Kaffee%20Dichter.%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A" target="_blank" rel="noreferrer"><ImWhatsapp className='text-2xl text-white'/></a>
 
             <a href="https://www.instagram.com/goethe.kaffee.dichter/?hl=es" target="_blank"><ImInstagram className='text-2xl text-white'/></a>
 
