@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { TbCoffee, TbCoffeeOff } from "react-icons/tb";
 import { navBarItems } from "../assets/utils/navBarItems";
 import {Fade} from 'react-awesome-reveal';
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+
+import Contact from "./Contact";
 
 function Nav() {
   const [showNav, setShowNav] = useState(false);
@@ -28,8 +30,8 @@ function Nav() {
           </div>
 
           {showNav && (
-             <Fade direction="left" duration='500'> 
-            <div className="absolute w-full mt-16   py-10 px-3 text-xl font-extralight bg-black flex flex-col gap-6">
+             <Fade direction="left" duration='500' className="-z-20"> 
+            <div className="absolute w-full mt-16 py-10 px-3 text-xl font-extralight bg-black flex flex-col gap-6">
             
             {navBarItems.map((e) => (
                 <Fade delay='50' key={e.item}><div
@@ -44,15 +46,23 @@ function Nav() {
             </div></Fade>
           )}
 
-          <div className="w-full h-full flex flex-col justify-center items-center p-4">
-            <h1 className="text-6xl font-Serif_Pro font-bold text-gray-100 tracking-wide">Goethe Kaffee Dichter</h1>
+          <div className="w-full h-full flex flex-col justify-evenly items-center p-4">
+            <h1 className="text-6xl font-Serif_Pro font-bold text-gray-100 tracking-wide mt-4">Goethe Kaffee Dichter</h1>
             
             <Fade delay='80' triggerOnce  className="w-full -z-10">
             <h1 className="uppercase text-xl  font-Serif_Pro font-thin w-full text-right mt-4 text-gray-100 tracking-widest">
            poetas del café
             </h1></Fade>
+
+            <div className="w-full mt-4"><Contact/></div>
             
             </div>
+
+            
+
+           
+
+            
         </div>
 
         <div
@@ -68,7 +78,7 @@ function Nav() {
             height: "100%",
           }}
           className="sepia"
-        ></div>
+        > </div>
       </div>
     </div>
   );

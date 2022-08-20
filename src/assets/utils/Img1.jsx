@@ -29,7 +29,7 @@ useEffect(() => {
 
     setTimeout(changeImage, 3000);
 
-    console.log(Imagen)
+
     
 }, [Imagen])
 
