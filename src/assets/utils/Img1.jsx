@@ -2,13 +2,13 @@ import React, {useState, useEffect} from 'react';
 import {Fade} from 'react-awesome-reveal'
 import CafeBlack from '../images/cafe_black.jpg';
 import CupCake from '../images/cup_cake.jpg';
-import Cheers from '../images/cheers.jpg';
-import Milk from '../images/milk.jpg';
-import Pouring from '../images/pouring_coffee.jpg';
+//import Cheers from '../images/cheers.jpg';
+//import Milk from '../images/milk.jpg';
+//import Pouring from '../images/pouring_coffee.jpg';
 import Brunch from '../images/brunch.jpg'
 
 function Img1() {
-    const imagenes = [CafeBlack, CupCake, Cheers, Milk, Pouring, Brunch]
+    const imagenes = [CafeBlack, CupCake, /* Cheers, Milk, Pouring, */ Brunch]
     const [Imagen, setImagen] = useState(0)
     
 useEffect(() => {

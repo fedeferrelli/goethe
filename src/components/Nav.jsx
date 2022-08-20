@@ -10,7 +10,7 @@ function Nav() {
   return (
     <div className="w-full relative">
       <div className="w-full h-96 z-10  absolute overflow-hidden">
-        <div className="w-full h-full bg-black/80 z-10 absolute ">
+        <div className="w-full h-full bg-black/75 z-10 absolute ">
           <div className="mr-0 text-right flex justify-end text-gray-200">
      <div className="m-2 h-12 w-12 bg-black/80 rounded-full flex flex-col absolute">
               {showNav ? (

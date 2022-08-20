@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Img1 from "./assets/utils/Img1";
+import Contact from "./components/Contact";
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
     <Nav/>
     <About/>
     <Img1/>
-   
+    <Contact/>   
     </div>
   )
 }
