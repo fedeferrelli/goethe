@@ -37,7 +37,7 @@ useEffect(() => {
 
 
     return (
-        <div className="w-full h-auto overflow-hidden py-4">
+        <div className="w-full h-auto overflow-hidden">
        
             <img src={imagenes[Imagen]} />
             

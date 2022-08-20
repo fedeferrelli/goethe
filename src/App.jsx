@@ -14,8 +14,9 @@ function App() {
 
     <Products/>
   
-    <Img1/>
+   
     <Map/>   
+    <Img1/>
     </div>
   )
 }

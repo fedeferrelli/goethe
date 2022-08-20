@@ -1,17 +1,11 @@
 import React from 'react';
 
-import CafeBlack from '../assets/images/cafe_black.jpg';
-import CupCake from '../assets/images/cup_cake.jpg';
-import Cheers from '../assets/images/cheers.jpg';
-import Milk from '../assets/images/milk.jpg';
-import Pouring from '../assets/images/pouring_coffee.jpg';
-import Brunch from '../assets/images/brunch.jpg';
 
 import productsToShow from '../assets/utils/productsToShow';
 
 function Products() {
 
-    const productos = [CafeBlack, CupCake, Cheers, Milk]
+   
     return (
 
     <div className="w-11/12 m-auto">    
