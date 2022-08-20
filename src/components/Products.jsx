@@ -13,7 +13,14 @@ function Products() {
 
     const productos = [CafeBlack, CupCake, Cheers, Milk]
     return (
-        <div className="h-72  p-3 overflow-auto whitespace-nowrap">
+
+    <div className="w-11/12 m-auto">    
+
+<div id="nuestros_cafes" className="bg-black w-full m-auto rounded-lg text-white text-xl uppercase py-3 font-Serif_Pro text-center mb-3">Nuestros Cafés</div>
+
+
+
+        <div className="h-auto  pt-2 overflow-auto whitespace-nowrap">
 
 {productsToShow.map(e=>(
 
@@ -24,14 +31,14 @@ function Products() {
     <img className="w-full " src={e.image}/>
     </div>
 
-    <section className="h-36 flex flex-col justify-between p-4 whitespace-normal">
+    <section className="h-36 flex flex-col justify-between px-3 py-2 whitespace-normal">
 
         <div className="flex flex-col">
             <h1 className="font font-semibold tracking-wide">{e.name.slice(0,28)}</h1>
             <p className="mt-1 text-xs  font-light inline-block">{e.descripcion.slice(0,70)}</p>
         </div>
 
-        <div className="font font-semibold">${e.precio}</div>
+        <div className="font font-semibold ">${e.precio}</div>
 
     </section>
     
@@ -43,6 +50,7 @@ function Products() {
            
             
             
+        </div>
         </div>
     )
 }

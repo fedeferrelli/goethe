@@ -10,8 +10,6 @@ function About() {
             <p className="max-w-prose tracking-wide">
             Nuestra pasión por el café nos exige tener la libertad como condición para poder explorar y ofrecer una propuesta de valor. Acá el protagonista es el café.
             </p>
-
-            <div className="mt-4 m-auto px-8 bg-black py-2 text-center text-gray-100 uppercase   border-gray-400 ">Nuestros Cafés</div>
             
         </div>
     )
